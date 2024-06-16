@@ -1,0 +1,115 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+
+header {
+    background-color: #4682b4;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+}
+
+section {
+    background-color: #fefefe;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    color: #4682b4;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+button {
+    background-color: #4682b4;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 0.5rem;
+}
+
+button:hover {
+    background-color: #315f8a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e6e6fa;
+    border-radius: 5px;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background-color: #ff6347;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-left: 1rem;
+    padding: 0.5rem;
+}
+
+li button:hover {
+    background-color: #ff4500;
+}
+
+footer {
+    background-color: #4682b4;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+#error {
+    color: red;
+}
+
+#message {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+#message.success {
+    color: green;
+}
+
+#message.error {
+    color: red;
+}

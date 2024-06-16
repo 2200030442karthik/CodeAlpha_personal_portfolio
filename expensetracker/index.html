@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker</h1>
+    </header>
+    
+    <main>
+        <section id="expense-form">
+            <h2>Add New Expense</h2>
+            <form id="form">
+                <input type="text" id="description" placeholder="Description" required>
+                <input type="number" id="amount" placeholder="Amount" required>
+                <select id="category">
+                    <option value="Food">Food</option>
+                    <option value="Travel">Travel</option>
+                    <option value="Utilities">Utilities</option>
+                </select>
+                <button type="submit">Add Expense</button>
+            </form>
+            <div id="message"></div>
+        </section>
+        
+        <section id="expenses-list">
+            <h2>Expenses</h2>
+            <ul id="expenses"></ul>
+        </section>
+        
+        <section id="expense-summary">
+            <h2>Summary</h2>
+            <p>Total Expenses: $<span id="total-amount">0</span></p>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Expense Tracker. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
